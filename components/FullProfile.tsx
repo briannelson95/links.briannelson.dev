@@ -31,7 +31,7 @@ const links = [
 
 export default function FullProfile() {
     return (
-        <div className='my-20 flex flex-col items-center mx-20 gap-4'>
+        <div className=' my-10 md:my-20 flex flex-col items-center mx-8 md:mx-20 gap-4'>
             <Intro />
             <section className='flex flex-col w-full'>
                 {links.map((item) => (
